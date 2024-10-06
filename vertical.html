@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100%;
+            width: 100%;
+        }
+        #left{
+            height: 100%;
+            width: 50%;
+            float: left;
+        }
+        #right{
+            height: 100%;
+            width: 48%;
+           margin-left: 10px;
+            float: left;
+
+        }
+        p{
+            border: 2px solid red;
+            height: 100px;
+            font-size: large;
+        }
+        span{
+            text-transform: uppercase;
+        }
+       #one{
+        vertical-align:baseline;
+        color: orange;
+       }
+       #two{
+        vertical-align: 10px;
+        color: green;
+        background-color: yellow;
+       }
+       #three{
+        vertical-align: -10px;
+        color: blue;
+       }
+       #four{
+        vertical-align: baseline;
+        font-size: small;
+       }
+       .sub{
+        vertical-align: sub;
+       }
+       .sup{
+        vertical-align: super;
+       }
+       img{
+        height: 20px;
+        width: 20px;
+       }
+       p{
+        padding-top: 10px;
+       }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Vertical Alignment</h1>
+        <div id="left">
+            <p>There is <span id="one">one</span> pen in the table.</p>
+            <p>There are <span id="two">two</span> trees in the garden</p>
+            <p><span id="three">Three</span >is an odd number</p>
+            <p>There are <span id="four">four</span>persons in a bus.</p>
+            <p>SnO<span class="sub">2</span> + 2H <span class="sub">2</span>=2H <span class="sub">2</span>0 + Sn</p>
+            <p>a<span class="sup">4</span>-b<span class="sup">4</span>=(a-b)(a<span class="sup">2</span>+ b<span class="sup">2</span>)</p>
+        </div>
+        <div id="right">
+            <p >The<img id="two" src="dario-veronesi-lUO-BjCiZEA-unsplash.jpg" alt="img">image</p>
+            <p>The<img id="three" src="dario-veronesi-lUO-BjCiZEA-unsplash.jpg" alt="img">image</p>
+            <p>The<img id="one" src="dario-veronesi-lUO-BjCiZEA-unsplash.jpg" alt="img">image</p>
+        </div>
+    </div>
+</body>
+</html>

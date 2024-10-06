@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        #aname {
+            height: 200px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+    <form>
+        <div></div>
+                    <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Ghanendra">
+                <label for="lname">Last Name:</label></td>
+                
+                    <input type="text" id="lname" name="lname" placeholder="Yadav">
+                
+            
+             <label for="ename">Email Id:</label>
+                <input type="email" id="ename" name="ename" placeholder="YGH42@dmail.com">
+            
+            <label for="mname">Mobile No:</label>
+                <input type="tel" id="mname" name="mname" placeholder="6381xxxxxx">
+            
+            <p><label for="gname">Gender:</label>
+                <input type="radio" id="gname" name="gname">Male
+                <input type="radio" id="gname" name="gname">Female
+            </p>
+            <p><label for="dname">Date Of Birth:</label>
+                <select id="dname">
+                    <option value="day">Day</option>
+                </select>
+                <select id="dname">
+                    <option value="month">month</option>
+                </select>
+                <select id="dname">
+                    <option value="year">year</option>
+                </select>
+            </p>
+            <p><label for="aname">Address:</label>
+                <input type="text" id="aname" name="aname">
+            </p>
+            <p><label for="cname">City:</label>
+                <input type="text" id="cname" name="cname" placeholder="Banglore">
+            </p>
+            <p><label for="pname">Pincode:</label>
+                <input type="text" id="pname" name="pname" placeholder="543xxx">
+            </p>
+            <p><label for="sname">State:</label>
+                <input type="text" id="sname" name="sname" placeholder="Tamilnadu">
+            </p>
+            <p><label for="coname">Country:</label>
+                <input type="text" id="coname" name="coname" placeholder="India">
+            </p>
+            <p><label for="hame">Hobbies:</label>
+                <input type="checkbox" id="hname" name="hname">Drawing
+                <input type="checkbox" id="hname" name="hname">singing
+                <input type="checkbox" id="hname" name="hname">Dancing
+                <input type="checkbox" id="hname" name="hname">Sketching
+                <input type="checkbox" id="hname" name="hname">others
+                <input type="text" id="hname" name="hname" placeholder="Ex:Teaching">(Max 50 Characters Allowed)
+            </p>
+            <p><label for="qname">Qualification:</label>
+                <input type="checkbox" id="qname" name="qname">High School(10th)
+                <input type="checkbox" id="qname" name="qname">Higher School(12th)
+                <input type="checkbox" id="qname" name="qname">Graduation(Bachelors)
+                <input type="checkbox" id="qname" name="qname">Post Graduation(Masters)
+                <input type="checkbox" id="qname" name="qname">Phd
+            </p>
+            <p><label for="caname">Courses applied for:</label>
+                <input type="checkbox" id="caname" name="caname">BCA
+                <input type="checkbox" id="caname" name="caname">B.Com
+                <input type="checkbox" id="caname" name="caname">B.Sc
+                <input type="checkbox" id="caname" name="caname">BA
+                <input type="checkbox" id="caname" name="caname">MCA
+                <input type="checkbox" id="caname" name="caname">M.Com
+                <input type="checkbox" id="caname" name="caname">M.Sc
+                <input type="checkbox" id="caname" name="caname">MA
+            </p>
+            <footer>
+                <input type="submit">
+                <input type="submit" placeholder="Reset"></input>
+            </footer>
+    </form>
+</div>
+</body>
+
+</html>

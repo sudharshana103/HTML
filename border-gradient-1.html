@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #cont {
+      height: 100%;
+      width: 100%;
+    }
+
+    #one {
+      height: 100px;
+      width: 200px;
+      border-width: 5px;
+      border-style: solid;
+      border-image: linear-gradient(to right, darkblue, yellow, green, pink);
+      border-image-slice: 1;
+      float: left;
+    }
+
+    #two {
+      height: 100px;
+      width: 200px;
+     border: 5px solid;
+      border-image: linear-gradient(to right, red, pink, magenta, purple);
+      border-image-slice: 1;
+      margin-left: 10px;
+      float: left;
+    }
+
+    #cont2 {
+      height: 400px;
+      width: 100%;
+    }
+
+    #three {
+      height: 100px;
+      width: 200px;
+      border-radius: 20px;
+      background-image:linear-gradient(to right, darkblue, yellow, green, pink);
+      margin-top: 10px;
+      float: left;
+    }
+
+    #four {
+      height: 100px;
+  width: 200px;
+  border-radius: 20px;
+  background-image:linear-gradient(to right,red,pink,magenta,purple) ;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+    }
+    #last{
+      height: 100px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: gray;
+  margin-top: 10px;
+  margin-left: 100px;
+  float: left;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="cont">
+    <div id="one">
+      <p>DEFAULT</p>
+    </div>
+    <div id="two">
+      <p>DEFAULT</p>
+    </div>
+    <div id="cont2">
+      <div id="three">
+        <p>HOVER</p>
+      </div>
+      <div id="four">
+        <p>HOVER</p>
+      </div>
+      <div id="last"><p>DISABLE</p></div>
+    </div>
+  </div>
+</body>
+
+</html>

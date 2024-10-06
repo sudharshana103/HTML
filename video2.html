@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>video</title>
+    <style>
+        h1,
+        h2 {
+            color: wheat;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+        }
+
+        body {
+            background-color: gray;
+        }
+        #container{
+            height: 800px;
+            width: 800px;
+            background-color: gray;
+        }
+        #header{
+            height: 200px;
+            width: 800px;
+            text-align: center;
+        }
+        #center{
+            height: 200px;
+            width: 800px;
+            box-sizing: border-box;
+
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+   <div id="header"><h1>Water and Waves.</h1></div>
+    <div id="center">
+        <video height="800px" width="800px"controls autoplay muted>
+            <source src="sample_640x360.mp4" type="video/mp4">
+        </video>
+    </div>
+<div id="footer"> <h2> Beaches and breezes.</h2>
+    <p>Casting off the anchors, they left them in the sea, at the same time untying the rudder ropes.
+        Hoisting up the foresail to the wind, they made for the beach.</p></div>   
+</div>
+</body>
+
+</html>
